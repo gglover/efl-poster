@@ -3,8 +3,6 @@ import json
 import time
 from bs4 import BeautifulSoup
 
-WIKIPEDIA_URL_PREFIX = 'https://en.wikipedia.org/'
-
 leagues_data = None
 
 with open('assets/leagues.json', 'r') as file:
@@ -15,8 +13,8 @@ for index, league in enumerate(leagues_data['leagues']):
 		print(f'Skipping {league['name']}: already synced.')
 		continue
 
-	time.sleep(2000)
-	response = requests.get(f'{WIKIPEDIA_URL_PREFIX}{league['url']}')
+	time.sleep(2)
+	response = requests.get(league['url'])
 	soup = BeautifulSoup(response.text, 'html.parser')
 
 	tables = soup.select('table')
@@ -31,7 +29,7 @@ for index, league in enumerate(leagues_data['leagues']):
 	teams = tables[league['table_index']].select('tbody td:first-child')
 
 	for team in teams:
-		team_urls.append(team.find('a').get('href'))
+		team_urls.append(team.find('a').get('href').replace('/wiki/', ''))
 
 	leagues_data['leagues'][index]['teams'] = team_urls
 
