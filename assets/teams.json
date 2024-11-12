@@ -1,1 +1,1514 @@
-{}
+{
+    "Arsenal_F.C.": {
+        "name": "Arsenal F.C.",
+        "nickname": "The Gunners  Gooners (supporters)",
+        "founded": "1886",
+        "ground": "Emirates Stadium"
+    },
+    "Aston_Villa_F.C.": {
+        "name": "Aston Villa F.C.",
+        "nickname": "The VillansThe Lions",
+        "founded": "1874",
+        "ground": "Villa Park"
+    },
+    "AFC_Bournemouth": {
+        "name": "AFC Bournemouth",
+        "nickname": "The CherriesBoscombe",
+        "founded": "1899",
+        "ground": "Dean Court"
+    },
+    "Brentford_F.C.": {
+        "name": "Brentford F.C.",
+        "nickname": "The Bees",
+        "founded": "1889",
+        "ground": "Brentford Community StadiumLondon, England"
+    },
+    "Brighton_%26_Hove_Albion_F.C.": {
+        "name": "Brighton & Hove Albion F.C.",
+        "nickname": "The Albion\nThe Seagulls",
+        "founded": "1901",
+        "ground": "Falmer Stadium"
+    },
+    "Chelsea_F.C.": {
+        "name": "Chelsea F.C.",
+        "nickname": "The Blues",
+        "founded": "1905",
+        "ground": "Stamford Bridge"
+    },
+    "Crystal_Palace_F.C.": {
+        "name": "Crystal Palace F.C.",
+        "nickname": "The Eagles\nThe Glaziers[A]",
+        "founded": "1905",
+        "ground": null
+    },
+    "Everton_F.C.": {
+        "name": "Everton F.C.",
+        "nickname": "The Blues[1]The ToffeesThe People's ClubThe School of Science",
+        "founded": "1878",
+        "ground": "Goodison Park"
+    },
+    "Fulham_F.C.": {
+        "name": "Fulham F.C.",
+        "nickname": "The Cottagers",
+        "founded": "1879",
+        "ground": "Craven Cottage"
+    },
+    "Ipswich_Town_F.C.": {
+        "name": "Ipswich Town F.C.",
+        "nickname": "The BluesThe Tractor Boys",
+        "founded": "1878",
+        "ground": "Portman Road"
+    },
+    "Leicester_City_F.C.": {
+        "name": "Leicester City F.C.",
+        "nickname": "The Foxes",
+        "founded": "1884",
+        "ground": null
+    },
+    "Liverpool_F.C.": {
+        "name": "Liverpool F.C.",
+        "nickname": "The Reds",
+        "founded": "1892",
+        "ground": null
+    },
+    "Manchester_City_F.C.": {
+        "name": "Manchester City F.C.",
+        "nickname": "The Citizens (Cityzens)[1][2]The BluesThe Sky Blues",
+        "founded": "1880",
+        "ground": "City of Manchester Stadium"
+    },
+    "Manchester_United_F.C.": {
+        "name": "Manchester United F.C.",
+        "nickname": "The Red Devils[1]United",
+        "founded": "1878",
+        "ground": "Old Trafford"
+    },
+    "Newcastle_United_F.C.": {
+        "name": "Newcastle United F.C.",
+        "nickname": "The Magpies",
+        "founded": "1881",
+        "ground": "St James' Park"
+    },
+    "Nottingham_Forest_F.C.": {
+        "name": "Nottingham Forest F.C.",
+        "nickname": "Forest\nThe Reds\nTricky Trees\nThe Garibaldi",
+        "founded": "1865",
+        "ground": "City Ground"
+    },
+    "Southampton_F.C.": {
+        "name": "Southampton F.C.",
+        "nickname": "The Saints",
+        "founded": "1885",
+        "ground": "St Mary's Stadium"
+    },
+    "Tottenham_Hotspur_F.C.": {
+        "name": "Tottenham Hotspur F.C.",
+        "nickname": "The Lilywhites",
+        "founded": "1882",
+        "ground": "Tottenham Hotspur Stadium"
+    },
+    "West_Ham_United_F.C.": {
+        "name": "West Ham United F.C.",
+        "nickname": "The Irons \nThe Hammers",
+        "founded": "1895",
+        "ground": "London Stadium"
+    },
+    "Wolverhampton_Wanderers_F.C.": {
+        "name": "Wolverhampton Wanderers F.C.",
+        "nickname": "Wolves, the Old Gold[1]",
+        "founded": "1877",
+        "ground": "Molineux Stadium"
+    },
+    "Blackburn_Rovers_F.C.": {
+        "name": "Blackburn Rovers F.C.",
+        "nickname": "Rovers [1][2]The Blue and WhitesThe Riversiders[3]",
+        "founded": "1875",
+        "ground": "Ewood Park"
+    },
+    "Bristol_City_F.C.": {
+        "name": "Bristol City F.C.",
+        "nickname": "The Robins, Cider Army",
+        "founded": "1894",
+        "ground": "Ashton Gate"
+    },
+    "Burnley_F.C.": {
+        "name": "Burnley F.C.",
+        "nickname": "The Clarets",
+        "founded": "1882",
+        "ground": "Turf Moor"
+    },
+    "Cardiff_City_F.C.": {
+        "name": "Cardiff City F.C.",
+        "nickname": "The Bluebirds",
+        "founded": "1899",
+        "ground": "Cardiff City Stadium"
+    },
+    "Coventry_City_F.C.": {
+        "name": "Coventry City F.C.",
+        "nickname": "The Sky Blues",
+        "founded": "1883",
+        "ground": "Coventry Building Society Arena"
+    },
+    "Derby_County_F.C.": {
+        "name": "Derby County F.C.",
+        "nickname": "The Rams",
+        "founded": "1884",
+        "ground": "Pride Park Stadium"
+    },
+    "Hull_City_A.F.C.": {
+        "name": "Hull City A.F.C.",
+        "nickname": "The Tigers",
+        "founded": "1904",
+        "ground": "MKM Stadium"
+    },
+    "Leeds_United_F.C.": {
+        "name": "Leeds United F.C.",
+        "nickname": "The Whites[1]",
+        "founded": "1919",
+        "ground": "Elland Road"
+    },
+    "Luton_Town_F.C.": {
+        "name": "Luton Town F.C.",
+        "nickname": "The Hatters",
+        "founded": "1885",
+        "ground": "Kenilworth Road"
+    },
+    "Middlesbrough_F.C.": {
+        "name": "Middlesbrough F.C.",
+        "nickname": "BoroSmoggies (supporters)",
+        "founded": "1876",
+        "ground": "Riverside Stadium"
+    },
+    "Millwall_F.C.": {
+        "name": "Millwall F.C.",
+        "nickname": "The Lions",
+        "founded": "1885",
+        "ground": "The Den"
+    },
+    "Norwich_City_F.C.": {
+        "name": "Norwich City F.C.",
+        "nickname": "The CanariesYellows",
+        "founded": "1902",
+        "ground": "Carrow Road"
+    },
+    "Oxford_United_F.C.": {
+        "name": "Oxford United F.C.",
+        "nickname": "The U'sYellows",
+        "founded": "1893",
+        "ground": "Kassam Stadium"
+    },
+    "Plymouth_Argyle_F.C.": {
+        "name": "Plymouth Argyle F.C.",
+        "nickname": "The Pilgrims; The Greens",
+        "founded": "1886",
+        "ground": "Home Park"
+    },
+    "Portsmouth_F.C.": {
+        "name": "Portsmouth F.C.",
+        "nickname": "Pompey",
+        "founded": "1898",
+        "ground": "Fratton Park"
+    },
+    "Preston_North_End_F.C.": {
+        "name": "Preston North End F.C.",
+        "nickname": "The Lilywhites, The Invincibles",
+        "founded": "1880",
+        "ground": "Deepdale"
+    },
+    "Queens_Park_Rangers_F.C.": {
+        "name": "Queens Park Rangers F.C.",
+        "nickname": "The Hoops, The Rs, The Rangers, The Super Hoops",
+        "founded": "1882",
+        "ground": "MATRADE Loftus Road Stadium"
+    },
+    "Sheffield_United_F.C.": {
+        "name": "Sheffield United F.C.",
+        "nickname": "The Blades",
+        "founded": "1889",
+        "ground": null
+    },
+    "Sheffield_Wednesday_F.C.": {
+        "name": "Sheffield Wednesday F.C.",
+        "nickname": "The Owls",
+        "founded": "1867",
+        "ground": "Hillsborough Stadium"
+    },
+    "Stoke_City_F.C.": {
+        "name": "Stoke City F.C.",
+        "nickname": "The Potters",
+        "founded": "1863",
+        "ground": "bet365 Stadium"
+    },
+    "Sunderland_A.F.C.": {
+        "name": "Sunderland A.F.C.",
+        "nickname": "The Black CatsMackems (supporters)",
+        "founded": "1879",
+        "ground": "Stadium of Light"
+    },
+    "Swansea_City_A.F.C.": {
+        "name": "Swansea City A.F.C.",
+        "nickname": "The SwansThe Jacks",
+        "founded": "1912",
+        "ground": "Swansea.com Stadium"
+    },
+    "Watford_F.C.": {
+        "name": "Watford F.C.",
+        "nickname": "The Hornets\nYellow Army\nThe 'Orns",
+        "founded": "1881",
+        "ground": "Vicarage Road"
+    },
+    "West_Bromwich_Albion_F.C.": {
+        "name": "West Bromwich Albion F.C.",
+        "nickname": "The Baggies\nThe Throstles\nThe Albion",
+        "founded": "1878",
+        "ground": "The Hawthorns"
+    },
+    "Barnsley_F.C.": {
+        "name": "Barnsley F.C.",
+        "nickname": "The Reds, The Tykes, The Colliers, [1]",
+        "founded": "1887",
+        "ground": "Oakwell"
+    },
+    "Birmingham_City_F.C.": {
+        "name": "Birmingham City F.C.",
+        "nickname": "Blues[1][2]",
+        "founded": "1875",
+        "ground": "St Andrew's"
+    },
+    "Blackpool_F.C.": {
+        "name": "Blackpool F.C.",
+        "nickname": "The Seasiders\nThe Tangerines",
+        "founded": "1887",
+        "ground": "Bloomfield Road"
+    },
+    "Bolton_Wanderers_F.C.": {
+        "name": "Bolton Wanderers F.C.",
+        "nickname": "The\u00a0Trotters\nThe Wanderers\nThe Whites",
+        "founded": "1874",
+        "ground": "Toughsheet Community Stadium"
+    },
+    "Bristol_Rovers_F.C.": {
+        "name": "Bristol Rovers F.C.",
+        "nickname": "The Pirates, The Gas",
+        "founded": "1883",
+        "ground": "Memorial Stadium"
+    },
+    "Burton_Albion_F.C.": {
+        "name": "Burton Albion F.C.",
+        "nickname": "Brewers, The Yellow and Black Army",
+        "founded": "1950",
+        "ground": "Pirelli Stadium"
+    },
+    "Cambridge_United_F.C.": {
+        "name": "Cambridge United F.C.",
+        "nickname": null,
+        "founded": "1912",
+        "ground": "Abbey Stadium"
+    },
+    "Charlton_Athletic_F.C.": {
+        "name": "Charlton Athletic F.C.",
+        "nickname": "The Addicks, The Valiants, Red Robins",
+        "founded": "1905",
+        "ground": "The Valley"
+    },
+    "Crawley_Town_F.C.": {
+        "name": "Crawley Town F.C.",
+        "nickname": "The Red Devils[1]",
+        "founded": "1896",
+        "ground": "Broadfield Stadium"
+    },
+    "Exeter_City_F.C.": {
+        "name": "Exeter City F.C.",
+        "nickname": "The Grecians",
+        "founded": "1901",
+        "ground": "St James Park"
+    },
+    "Huddersfield_Town_A.F.C.": {
+        "name": "Huddersfield Town A.F.C.",
+        "nickname": "The Terriers",
+        "founded": "1908",
+        "ground": "John Smith's Stadium"
+    },
+    "Leyton_Orient_F.C.": {
+        "name": "Leyton Orient F.C.",
+        "nickname": "The Os",
+        "founded": "1881",
+        "ground": "Brisbane Road"
+    },
+    "Lincoln_City_F.C.": {
+        "name": "Lincoln City F.C.",
+        "nickname": "The Imps",
+        "founded": "1884",
+        "ground": "Sincil Bank"
+    },
+    "Mansfield_Town_F.C.": {
+        "name": "Mansfield Town F.C.",
+        "nickname": "The Stags",
+        "founded": "1897",
+        "ground": "Field Mill"
+    },
+    "Northampton_Town_F.C.": {
+        "name": "Northampton Town F.C.",
+        "nickname": "The Cobblers  Shoe Army",
+        "founded": "1897",
+        "ground": "Sixfields Stadium"
+    },
+    "Peterborough_United_F.C.": {
+        "name": "Peterborough United F.C.",
+        "nickname": "The Posh",
+        "founded": "1934",
+        "ground": "London Road"
+    },
+    "Reading_F.C.": {
+        "name": "Reading F.C.",
+        "nickname": "The Royals  The Ding[1]  The Biscuitmen (Historic)",
+        "founded": "1871",
+        "ground": "Madejski Stadium"
+    },
+    "Rotherham_United_F.C.": {
+        "name": "Rotherham United F.C.",
+        "nickname": "The Millers",
+        "founded": "1925",
+        "ground": "New York Stadium"
+    },
+    "Shrewsbury_Town_F.C.": {
+        "name": "Shrewsbury Town F.C.",
+        "nickname": "The Shrews, Salop, The Town",
+        "founded": "1886",
+        "ground": "New Meadow"
+    },
+    "Stevenage_F.C.": {
+        "name": "Stevenage F.C.",
+        "nickname": "The Boro",
+        "founded": "1976",
+        "ground": "The Lamex Stadium"
+    },
+    "Stockport_County_F.C.": {
+        "name": "Stockport County F.C.",
+        "nickname": "The Hatters, County",
+        "founded": "1883",
+        "ground": "Edgeley Park"
+    },
+    "Wigan_Athletic_F.C.": {
+        "name": "Wigan Athletic F.C.",
+        "nickname": "Latics, Tics",
+        "founded": "1932",
+        "ground": "Brick Community Stadium"
+    },
+    "Wrexham_A.F.C.": {
+        "name": "Wrexham A.F.C.",
+        "nickname": "The Red Dragons, The Robins, The Town",
+        "founded": "1864",
+        "ground": null
+    },
+    "Wycombe_Wanderers_F.C.": {
+        "name": "Wycombe Wanderers F.C.",
+        "nickname": "The ChairboysThe Blues",
+        "founded": "1887",
+        "ground": "Adams Park"
+    },
+    "Accrington_Stanley_F.C.": {
+        "name": "Accrington Stanley F.C.",
+        "nickname": "The 'Owd Reds",
+        "founded": "1968",
+        "ground": "Crown Ground"
+    },
+    "AFC_Wimbledon": {
+        "name": "AFC Wimbledon",
+        "nickname": "The DonsThe Wombles",
+        "founded": "2002",
+        "ground": "Plough Lane"
+    },
+    "Barrow_A.F.C.": {
+        "name": "Barrow A.F.C.",
+        "nickname": "The Bluebirds",
+        "founded": "1901",
+        "ground": "Holker Street"
+    },
+    "Bradford_City_A.F.C.": {
+        "name": "Bradford City A.F.C.",
+        "nickname": "The BantamsThe ParadersThe Citizens",
+        "founded": "1903",
+        "ground": "Valley Parade"
+    },
+    "Bromley_F.C.": {
+        "name": "Bromley F.C.",
+        "nickname": "The Ravens, The Lillywhites",
+        "founded": "1892",
+        "ground": "Hayes Lane, Bromley"
+    },
+    "Carlisle_United_F.C.": {
+        "name": "Carlisle United F.C.",
+        "nickname": "The Cumbrians, The Blues",
+        "founded": "1896",
+        "ground": "Brunton Park"
+    },
+    "Cheltenham_Town_F.C.": {
+        "name": "Cheltenham Town F.C.",
+        "nickname": "The Robins",
+        "founded": "1887",
+        "ground": "Whaddon Road"
+    },
+    "Chesterfield_F.C.": {
+        "name": "Chesterfield F.C.",
+        "nickname": "Town, The Spireites",
+        "founded": "1867",
+        "ground": "SMH Group Stadium"
+    },
+    "Colchester_United_F.C.": {
+        "name": "Colchester United F.C.",
+        "nickname": "The U's",
+        "founded": "1937",
+        "ground": "Colchester Community Stadium"
+    },
+    "Crewe_Alexandra_F.C.": {
+        "name": "Crewe Alexandra F.C.",
+        "nickname": "The Railwaymen, The Alex",
+        "founded": "1877",
+        "ground": "Gresty Road"
+    },
+    "Doncaster_Rovers_F.C.": {
+        "name": "Doncaster Rovers F.C.",
+        "nickname": "Rovers",
+        "founded": "1879",
+        "ground": "Eco-Power Stadium"
+    },
+    "Fleetwood_Town_F.C.": {
+        "name": "Fleetwood Town F.C.",
+        "nickname": "The Fishermen, The Cod Army",
+        "founded": "1908",
+        "ground": "Highbury Stadium"
+    },
+    "Gillingham_F.C.": {
+        "name": "Gillingham F.C.",
+        "nickname": "The Gills",
+        "founded": "1893",
+        "ground": "Priestfield Stadium"
+    },
+    "Grimsby_Town_F.C.": {
+        "name": "Grimsby Town F.C.",
+        "nickname": "The Mariners",
+        "founded": "1878",
+        "ground": "Blundell Park"
+    },
+    "Harrogate_Town_A.F.C.": {
+        "name": "Harrogate Town A.F.C.",
+        "nickname": "Sulphurites",
+        "founded": "1919",
+        "ground": "Wetherby Road"
+    },
+    "Milton_Keynes_Dons_F.C.": {
+        "name": "Milton Keynes Dons F.C.",
+        "nickname": "The Dons",
+        "founded": "2004",
+        "ground": "Stadium MK"
+    },
+    "Morecambe_F.C.": {
+        "name": "Morecambe F.C.",
+        "nickname": "The Shrimps",
+        "founded": "1920",
+        "ground": "Mazuma Mobile Stadium"
+    },
+    "Newport_County_A.F.C.": {
+        "name": "Newport County A.F.C.",
+        "nickname": "The Exiles, The Ironsides, The Port, The Black and Ambers",
+        "founded": "1912",
+        "ground": "Rodney Parade"
+    },
+    "Notts_County_F.C.": {
+        "name": "Notts County F.C.",
+        "nickname": "The Magpies",
+        "founded": "1862",
+        "ground": "Meadow Lane"
+    },
+    "Port_Vale_F.C.": {
+        "name": "Port Vale F.C.",
+        "nickname": "The Valiants[1]",
+        "founded": "1876",
+        "ground": "Vale Park, Burslem, Stoke-on-Trent"
+    },
+    "Salford_City_F.C.": {
+        "name": "Salford City F.C.",
+        "nickname": "The Ammies",
+        "founded": "1940",
+        "ground": "Moor Lane"
+    },
+    "Swindon_Town_F.C.": {
+        "name": "Swindon Town F.C.",
+        "nickname": "The Robins",
+        "founded": "1879",
+        "ground": "The County Ground"
+    },
+    "Tranmere_Rovers_F.C.": {
+        "name": "Tranmere Rovers F.C.",
+        "nickname": "The Rovers",
+        "founded": "1884",
+        "ground": "Prenton Park"
+    },
+    "Walsall_F.C.": {
+        "name": "Walsall F.C.",
+        "nickname": "The Saddlers",
+        "founded": "1888",
+        "ground": "Poundland Bescot Stadium"
+    },
+    "AFC_Fylde": {
+        "name": "AFC Fylde",
+        "nickname": "The Coasters",
+        "founded": "1988",
+        "ground": "Mill Farm, Wesham"
+    },
+    "Aldershot_Town_F.C.": {
+        "name": "Aldershot Town F.C.",
+        "nickname": "The Shots",
+        "founded": "1992",
+        "ground": "Recreation Ground"
+    },
+    "Altrincham_F.C.": {
+        "name": "Altrincham F.C.",
+        "nickname": "The Robins",
+        "founded": "1891",
+        "ground": "Moss Lane, Altrincham"
+    },
+    "Barnet_F.C.": {
+        "name": "Barnet F.C.",
+        "nickname": "The Bees[1]",
+        "founded": "1888",
+        "ground": "The Hive Stadium"
+    },
+    "Boston_United_F.C.": {
+        "name": "Boston United F.C.",
+        "nickname": "The Pilgrims",
+        "founded": "1933",
+        "ground": "Boston Community Stadium"
+    },
+    "Braintree_Town_F.C.": {
+        "name": "Braintree Town F.C.",
+        "nickname": "The Iron",
+        "founded": "1898",
+        "ground": "Cressing Road, Braintree"
+    },
+    "Dagenham_%26_Redbridge_F.C.": {
+        "name": "Dagenham & Redbridge F.C.",
+        "nickname": "Daggers",
+        "founded": "1992",
+        "ground": "Victoria Road"
+    },
+    "Eastleigh_F.C.": {
+        "name": "Eastleigh F.C.",
+        "nickname": "The Spitfires",
+        "founded": "1946",
+        "ground": "Silverlake Stadium"
+    },
+    "Ebbsfleet_United_F.C.": {
+        "name": "Ebbsfleet United F.C.",
+        "nickname": "The Fleet",
+        "founded": "1946",
+        "ground": "Stonebridge Road, Northfleet"
+    },
+    "FC_Halifax_Town": {
+        "name": "FC Halifax Town",
+        "nickname": "The Shaymen",
+        "founded": "2008",
+        "ground": "The Shay"
+    },
+    "Forest_Green_Rovers_F.C.": {
+        "name": "Forest Green Rovers F.C.",
+        "nickname": "The Green, Rovers, Green Army, Black and White Army",
+        "founded": "1889",
+        "ground": "The New Lawn"
+    },
+    "Gateshead_F.C.": {
+        "name": "Gateshead F.C.",
+        "nickname": "The Tynesiders, The Heed",
+        "founded": "1977",
+        "ground": "Gateshead International Stadium"
+    },
+    "Hartlepool_United_F.C.": {
+        "name": "Hartlepool United F.C.",
+        "nickname": "Pools, Monkey Hangers",
+        "founded": "1908",
+        "ground": "Victoria Park"
+    },
+    "Maidenhead_United_F.C.": {
+        "name": "Maidenhead United F.C.",
+        "nickname": "The Magpies",
+        "founded": "1870",
+        "ground": "York Road, Maidenhead"
+    },
+    "Oldham_Athletic_A.F.C.": {
+        "name": "Oldham Athletic A.F.C.",
+        "nickname": "Latics",
+        "founded": "1895",
+        "ground": "Boundary Park"
+    },
+    "Rochdale_A.F.C.": {
+        "name": "Rochdale A.F.C.",
+        "nickname": "The Dale",
+        "founded": "1907",
+        "ground": "Spotland Stadium"
+    },
+    "Solihull_Moors_F.C.": {
+        "name": "Solihull Moors F.C.",
+        "nickname": "The Moors",
+        "founded": "2007",
+        "ground": "Damson Park"
+    },
+    "Southend_United_F.C.": {
+        "name": "Southend United F.C.",
+        "nickname": "The Shrimpers/The Blues",
+        "founded": "1906",
+        "ground": "Roots Hall[1]"
+    },
+    "Sutton_United_F.C.": {
+        "name": "Sutton United F.C.",
+        "nickname": "The UsThe Amber and ChocolatesThe Yellows",
+        "founded": "1898",
+        "ground": "Gander Green Lane, Sutton"
+    },
+    "Tamworth_F.C.": {
+        "name": "Tamworth F.C.",
+        "nickname": "The Lambs",
+        "founded": "1933",
+        "ground": "The Lamb Ground, Tamworth"
+    },
+    "Wealdstone_F.C.": {
+        "name": "Wealdstone F.C.",
+        "nickname": "The Stones, The Royals",
+        "founded": "1899",
+        "ground": "Grosvenor Vale"
+    },
+    "Woking_F.C.": {
+        "name": "Woking F.C.",
+        "nickname": "The Cardinals/The Cards",
+        "founded": "1887",
+        "ground": "Laithwaite Community Stadium"
+    },
+    "Yeovil_Town_F.C.": {
+        "name": "Yeovil Town F.C.",
+        "nickname": "The Glovers",
+        "founded": "1895",
+        "ground": "Huish Park"
+    },
+    "York_City_F.C.": {
+        "name": "York City F.C.",
+        "nickname": "The Minstermen",
+        "founded": "1922",
+        "ground": "York Community Stadium"
+    },
+    "Alfreton_Town_F.C.": {
+        "name": "Alfreton Town F.C.",
+        "nickname": "The Reds",
+        "founded": "1959",
+        "ground": "North Street, Alfreton"
+    },
+    "Brackley_Town_F.C.": {
+        "name": "Brackley Town F.C.",
+        "nickname": "The Saints",
+        "founded": "1890",
+        "ground": "St. James Park, Brackley"
+    },
+    "Buxton_F.C.": {
+        "name": "Buxton F.C.",
+        "nickname": "The Bucks",
+        "founded": "1877",
+        "ground": "The Silverlands, Buxton"
+    },
+    "Chester_F.C.": {
+        "name": "Chester F.C.",
+        "nickname": "The Seals",
+        "founded": "2010",
+        "ground": "Deva Stadium"
+    },
+    "Chorley_F.C.": {
+        "name": "Chorley F.C.",
+        "nickname": "The Magpies",
+        "founded": "1883",
+        "ground": "Victory Park"
+    },
+    "Curzon_Ashton_F.C.": {
+        "name": "Curzon Ashton F.C.",
+        "nickname": "The Nash",
+        "founded": "1963",
+        "ground": "Tameside Stadium"
+    },
+    "Darlington_F.C.": {
+        "name": "Darlington F.C.",
+        "nickname": "The Quakers, Darlo",
+        "founded": "1883",
+        "ground": "Blackwell Meadows, Darlington"
+    },
+    "Farsley_Celtic_F.C.": {
+        "name": "Farsley Celtic F.C.",
+        "nickname": "The Celt Army",
+        "founded": "1908",
+        "ground": "The Citadel, Farsley"
+    },
+    "Hereford_F.C.": {
+        "name": "Hereford F.C.",
+        "nickname": "The Bulls",
+        "founded": "2014",
+        "ground": "Edgar Street"
+    },
+    "Kidderminster_Harriers_F.C.": {
+        "name": "Kidderminster Harriers F.C.",
+        "nickname": "Kiddy, Harriers, Carpetmen, The Reds",
+        "founded": "1886",
+        "ground": "Aggborough"
+    },
+    "King%27s_Lynn_Town_F.C.": {
+        "name": "King's Lynn Town F.C.",
+        "nickname": "The Linnets",
+        "founded": "2010",
+        "ground": "The Walks, King's Lynn"
+    },
+    "Leamington_F.C.": {
+        "name": "Leamington F.C.",
+        "nickname": "The Brakes",
+        "founded": "1933",
+        "ground": "New Windmill Ground, Leamington Spa"
+    },
+    "Marine_A.F.C.": {
+        "name": "Marine A.F.C.",
+        "nickname": "The Mariners, The Lilywhites",
+        "founded": "1894",
+        "ground": "Rossett Park, Crosby"
+    },
+    "Needham_Market_F.C.": {
+        "name": "Needham Market F.C.",
+        "nickname": "The Marketmen",
+        "founded": "1919",
+        "ground": "Bloomfields, Needham Market"
+    },
+    "Oxford_City_F.C.": {
+        "name": "Oxford City F.C.",
+        "nickname": "The Hoops",
+        "founded": "1882",
+        "ground": "RAW Charging Stadium, Court Place Farm, Marsh Lane, Marston"
+    },
+    "Peterborough_Sports_F.C.": {
+        "name": "Peterborough Sports F.C.",
+        "nickname": "The Turbines",
+        "founded": "1908",
+        "ground": "Lincoln Road, Peterborough"
+    },
+    "Radcliffe_F.C.": {
+        "name": "Radcliffe F.C.",
+        "nickname": "The Boro",
+        "founded": "1949",
+        "ground": "Neuven Stadium, Radcliffe"
+    },
+    "Rushall_Olympic_F.C.": {
+        "name": "Rushall Olympic F.C.",
+        "nickname": "The Pics",
+        "founded": "1893",
+        "ground": "Dales Lane, Rushall, Walsall"
+    },
+    "Scarborough_Athletic_F.C.": {
+        "name": "Scarborough Athletic F.C.",
+        "nickname": "The Seadogs",
+        "founded": "2007",
+        "ground": "Flamingo Land Stadium"
+    },
+    "Scunthorpe_United_F.C.": {
+        "name": "Scunthorpe United F.C.",
+        "nickname": "The Iron",
+        "founded": "1899",
+        "ground": "Glanford Park"
+    },
+    "South_Shields_F.C.": {
+        "name": "South Shields F.C.",
+        "nickname": "The Mariners",
+        "founded": "1888",
+        "ground": "Mariners Park, Bede Industrial Estate"
+    },
+    "Southport_F.C.": {
+        "name": "Southport F.C.",
+        "nickname": "The Sandgrounders, The Port",
+        "founded": "1888",
+        "ground": "Haig Avenue"
+    },
+    "Spennymoor_Town_F.C.": {
+        "name": "Spennymoor Town F.C.",
+        "nickname": "The Moors",
+        "founded": "2005",
+        "ground": "The Brewery FieldSpennymoorCounty Durham"
+    },
+    "Warrington_Town_F.C.": {
+        "name": "Warrington Town F.C.",
+        "nickname": "The Yellows, The Town, The Wire",
+        "founded": "1949",
+        "ground": "Cantilever Park, Warrington"
+    },
+    "Aveley_F.C.": {
+        "name": "Aveley F.C.",
+        "nickname": "The Millers",
+        "founded": "1927",
+        "ground": "Parkside, Aveley"
+    },
+    "Bath_City_F.C.": {
+        "name": "Bath City F.C.",
+        "nickname": "The Romans",
+        "founded": "1889",
+        "ground": "Twerton Park"
+    },
+    "Boreham_Wood_F.C.": {
+        "name": "Boreham Wood F.C.",
+        "nickname": "The Wood",
+        "founded": "1948",
+        "ground": "Meadow Park, Borehamwood"
+    },
+    "Chelmsford_City_F.C.": {
+        "name": "Chelmsford City F.C.",
+        "nickname": "CityThe Clarets",
+        "founded": "1878",
+        "ground": "Melbourne Stadium, Chelmsford"
+    },
+    "Chesham_United_F.C.": {
+        "name": "Chesham United F.C.",
+        "nickname": "The Generals",
+        "founded": "1917",
+        "ground": "The Meadow, Chesham"
+    },
+    "Chippenham_Town_F.C.": {
+        "name": "Chippenham Town F.C.",
+        "nickname": "The Bluebirds",
+        "founded": "1873",
+        "ground": "Hardenhuish Park, Chippenham"
+    },
+    "Dorking_Wanderers_F.C.": {
+        "name": "Dorking Wanderers F.C.",
+        "nickname": "Wanderers",
+        "founded": "1999",
+        "ground": "Meadowbank, Dorking"
+    },
+    "Eastbourne_Borough_F.C.": {
+        "name": "Eastbourne Borough F.C.",
+        "nickname": "The Sports",
+        "founded": "1964",
+        "ground": "Priory LaneLangney, Eastbourne"
+    },
+    "Enfield_Town_F.C.": {
+        "name": "Enfield Town F.C.",
+        "nickname": "Towners",
+        "founded": "2001",
+        "ground": "Queen Elizabeth II Stadium, Enfield"
+    },
+    "Farnborough_F.C.": {
+        "name": "Farnborough F.C.",
+        "nickname": "Boro, The Yellows",
+        "founded": "1967",
+        "ground": "Cherrywood Road, Farnborough"
+    },
+    "Hampton_%26_Richmond_Borough_F.C.": {
+        "name": "Hampton & Richmond Borough F.C.",
+        "nickname": "The Beavers",
+        "founded": "1921",
+        "ground": "Beveree Stadium,Hampton, London"
+    },
+    "Hemel_Hempstead_Town_F.C.": {
+        "name": "Hemel Hempstead Town F.C.",
+        "nickname": "The Tudors",
+        "founded": "1885",
+        "ground": "Vauxhall Road, Hemel Hempstead"
+    },
+    "Hornchurch_F.C.": {
+        "name": "Hornchurch F.C.",
+        "nickname": "The Urchins",
+        "founded": "1923",
+        "ground": "Hornchurch Stadium, Upminster"
+    },
+    "Maidstone_United_F.C.": {
+        "name": "Maidstone United F.C.",
+        "nickname": "The Stones",
+        "founded": "1992",
+        "ground": "Gallagher Stadium"
+    },
+    "Salisbury_F.C.": {
+        "name": "Salisbury F.C.",
+        "nickname": "The Whites",
+        "founded": "2015",
+        "ground": "The Raymond McEnhill Stadium, Salisbury"
+    },
+    "Slough_Town_F.C.": {
+        "name": "Slough Town F.C.",
+        "nickname": "The Rebels",
+        "founded": "1890",
+        "ground": "Arbour Park, Slough"
+    },
+    "St_Albans_City_F.C.": {
+        "name": "St Albans City F.C.",
+        "nickname": "The Saints",
+        "founded": "1908",
+        "ground": "Clarence Park"
+    },
+    "Tonbridge_Angels_F.C.": {
+        "name": "Tonbridge Angels F.C.",
+        "nickname": "The Angels",
+        "founded": "1947",
+        "ground": "Halcyon Wealth Longmead Stadium, Tonbridge"
+    },
+    "Torquay_United_F.C.": {
+        "name": "Torquay United F.C.",
+        "nickname": "The Gulls",
+        "founded": "1899",
+        "ground": "Plainmoor"
+    },
+    "Truro_City_F.C.": {
+        "name": "Truro City F.C.",
+        "nickname": "The Tinners, City, The Smugglers",
+        "founded": "1889",
+        "ground": "Truro City Stadium, Langarth Garden Village, Threemilestone"
+    },
+    "Welling_United_F.C.": {
+        "name": "Welling United F.C.",
+        "nickname": "The Wings",
+        "founded": "1963",
+        "ground": "Park View Road, Welling"
+    },
+    "Weston-super-Mare_A.F.C.": {
+        "name": "Weston-super-Mare A.F.C.",
+        "nickname": "The Seagulls",
+        "founded": "1887",
+        "ground": "Woodspring Stadium"
+    },
+    "Weymouth_F.C.": {
+        "name": "Weymouth F.C.",
+        "nickname": "The Terras",
+        "founded": "1890",
+        "ground": "Bob Lucas Stadium"
+    },
+    "Worthing_F.C.": {
+        "name": "Worthing F.C.",
+        "nickname": "The Rebels, The Mackerel Men",
+        "founded": "1886",
+        "ground": "Woodside Road, Worthing"
+    },
+    "Ashton_United_F.C.": {
+        "name": "Ashton United F.C.",
+        "nickname": "The Robins",
+        "founded": "1878",
+        "ground": "Hurst Cross, Ashton-under-Lyne"
+    },
+    "Bamber_Bridge_F.C.": {
+        "name": "Bamber Bridge F.C.",
+        "nickname": "Brig[1]",
+        "founded": "1952",
+        "ground": "Sir Tom Finney Stadium, Bamber Bridge"
+    },
+    "Basford_United_F.C.": {
+        "name": "Basford United F.C.",
+        "nickname": "The Lions, The Ambers",
+        "founded": "1900",
+        "ground": "Greenwich Avenue, Basford"
+    },
+    "Blyth_Spartans_A.F.C.": {
+        "name": "Blyth Spartans A.F.C.",
+        "nickname": "The Spartans  Green Army",
+        "founded": "1899",
+        "ground": "Croft Park, Blyth"
+    },
+    "F.C._United_of_Manchester": {
+        "name": "F.C. United of Manchester",
+        "nickname": "F.C. UnitedThe RedsRed Rebels",
+        "founded": "2005",
+        "ground": "Broadhurst Park"
+    },
+    "Gainsborough_Trinity_F.C.": {
+        "name": "Gainsborough Trinity F.C.",
+        "nickname": "Trinity, The Holy Blues",
+        "founded": "1873",
+        "ground": "The Northolme, Gainsborough"
+    },
+    "Guiseley_A.F.C.": {
+        "name": "Guiseley A.F.C.",
+        "nickname": "The Lions",
+        "founded": "1909",
+        "ground": "Nethermoor Park, Guiseley"
+    },
+    "Hebburn_Town_F.C.": {
+        "name": "Hebburn Town F.C.",
+        "nickname": "The Hornets",
+        "founded": "1912",
+        "ground": "Hebburn Sports & Social Ground, Hebburn"
+    },
+    "Hyde_United_F.C.": {
+        "name": "Hyde United F.C.",
+        "nickname": "The Tigers[1]",
+        "founded": "1919",
+        "ground": "Ewen Fields"
+    },
+    "Ilkeston_Town_F.C.": {
+        "name": "Ilkeston Town F.C.",
+        "nickname": "The Robins",
+        "founded": "2017",
+        "ground": "New Manor Ground"
+    },
+    "Lancaster_City_F.C.": {
+        "name": "Lancaster City F.C.",
+        "nickname": "The Dolly Blues, Dollies, The Blues, City, The Town",
+        "founded": "1911",
+        "ground": "Giant Axe, Lancaster"
+    },
+    "Leek_Town_F.C.": {
+        "name": "Leek Town F.C.",
+        "nickname": "The Blues",
+        "founded": "1946",
+        "ground": "Harrison Park, Leek"
+    },
+    "Macclesfield_F.C.": {
+        "name": "Macclesfield F.C.",
+        "nickname": "The Silkmen",
+        "founded": "2020",
+        "ground": "Leasing.com Stadium"
+    },
+    "Matlock_Town_F.C.": {
+        "name": "Matlock Town F.C.",
+        "nickname": "The Gladiators",
+        "founded": "1878",
+        "ground": "Causeway Lane, Matlock"
+    },
+    "Mickleover_F.C.": {
+        "name": "Mickleover F.C.",
+        "nickname": "Sports",
+        "founded": "1948",
+        "ground": "Station Road, Mickleover"
+    },
+    "Morpeth_Town_A.F.C.": {
+        "name": "Morpeth Town A.F.C.",
+        "nickname": "The Highwaymen",
+        "founded": "1909",
+        "ground": "Craik Park, Morpeth"
+    },
+    "Prescot_Cables_F.C.": {
+        "name": "Prescot Cables F.C.",
+        "nickname": "Cables",
+        "founded": "1884",
+        "ground": "Valerie Park"
+    },
+    "Stockton_Town_F.C.": {
+        "name": "Stockton Town F.C.",
+        "nickname": "The Anchors",
+        "founded": "1987",
+        "ground": "Bishopton Road West"
+    },
+    "Warrington_Rylands_1906_F.C.": {
+        "name": "Warrington Rylands 1906 F.C.",
+        "nickname": "Blues",
+        "founded": "1906",
+        "ground": "Gorsey Lane"
+    },
+    "Whitby_Town_F.C.": {
+        "name": "Whitby Town F.C.",
+        "nickname": "The Blues / The Seasiders\"",
+        "founded": "1880",
+        "ground": "Turnbull GroundWhitbyNorth Yorkshire"
+    },
+    "Workington_A.F.C.": {
+        "name": "Workington A.F.C.",
+        "nickname": "The Reds",
+        "founded": "1921",
+        "ground": "Borough Park, Workington"
+    },
+    "Worksop_Town_F.C.": {
+        "name": "Worksop Town F.C.",
+        "nickname": "The Tigers",
+        "founded": null,
+        "ground": "Sandy Lane, Worksop"
+    },
+    "A.F.C._Sudbury": {
+        "name": "A.F.C. Sudbury",
+        "nickname": "Yellows  The Suds",
+        "founded": "1999",
+        "ground": "King's Marsh, Sudbury"
+    },
+    "AFC_Telford_United": {
+        "name": "AFC Telford United",
+        "nickname": "The Bucks, Lillywhites",
+        "founded": "2004",
+        "ground": "New Bucks Head, Telford"
+    },
+    "Alvechurch_F.C.": {
+        "name": "Alvechurch F.C.",
+        "nickname": "The Church",
+        "founded": "1929",
+        "ground": "Lye Meadow"
+    },
+    "Banbury_United_F.C.": {
+        "name": "Banbury United F.C.",
+        "nickname": "The Puritans",
+        "founded": "1931",
+        "ground": "Spencer Stadium, Banbury"
+    },
+    "Barwell_F.C.": {
+        "name": "Barwell F.C.",
+        "nickname": "The Canaries",
+        "founded": "1992",
+        "ground": "Kirkby Road, Barwell"
+    },
+    "Bedford_Town_F.C.": {
+        "name": "Bedford Town F.C.",
+        "nickname": "The Eagles",
+        "founded": "1989",
+        "ground": "The New Eyrie, Cardington, Bedford"
+    },
+    "Biggleswade_Town_F.C.": {
+        "name": "Biggleswade Town F.C.",
+        "nickname": "The Waders",
+        "founded": "1874",
+        "ground": "Langford Road, Biggleswade"
+    },
+    "Bishop%27s_Stortford_F.C.": {
+        "name": "Bishop's Stortford F.C.",
+        "nickname": "The Blues",
+        "founded": "1874",
+        "ground": "Woodside Park, Bishop's Stortford"
+    },
+    "Bromsgrove_Sporting_F.C.": {
+        "name": "Bromsgrove Sporting F.C.",
+        "nickname": "The Rouslers",
+        "founded": "2009",
+        "ground": "Victoria Ground"
+    },
+    "Halesowen_Town_F.C.": {
+        "name": "Halesowen Town F.C.",
+        "nickname": "The Yeltz",
+        "founded": null,
+        "ground": "The Grove, Halesowen"
+    },
+    "Harborough_Town_F.C.": {
+        "name": "Harborough Town F.C.",
+        "nickname": "The Bees",
+        "founded": "1975",
+        "ground": "Bowden Park, Market Harborough"
+    },
+    "Hitchin_Town_F.C.": {
+        "name": "Hitchin Town F.C.",
+        "nickname": "The Canaries[1]",
+        "founded": "1928",
+        "ground": "Top Field, Hitchin, Hertfordshire"
+    },
+    "Kettering_Town_F.C.": {
+        "name": "Kettering Town F.C.",
+        "nickname": "The Poppies",
+        "founded": "1872",
+        "ground": "Latimer Park, Burton Latimer"
+    },
+    "Leiston_F.C.": {
+        "name": "Leiston F.C.",
+        "nickname": "The Blues",
+        "founded": "1880",
+        "ground": "Victory Road, Leiston"
+    },
+    "Lowestoft_Town_F.C.": {
+        "name": "Lowestoft Town F.C.",
+        "nickname": "Trawler Boys",
+        "founded": "1887",
+        "ground": "Crown Meadow, Lowestoft"
+    },
+    "Redditch_United_F.C.": {
+        "name": "Redditch United F.C.",
+        "nickname": "The Reds",
+        "founded": "1891",
+        "ground": "Valley Stadium, Redditch"
+    },
+    "Royston_Town_F.C.": {
+        "name": "Royston Town F.C.",
+        "nickname": "The Crows",
+        "founded": "1875",
+        "ground": "Garden Walk, Royston"
+    },
+    "Spalding_United_F.C.": {
+        "name": "Spalding United F.C.",
+        "nickname": "The Tulips",
+        "founded": "1905",
+        "ground": "Sir Halley Stewart Field, Spalding"
+    },
+    "Stamford_A.F.C.": {
+        "name": "Stamford A.F.C.",
+        "nickname": "The Dannies",
+        "founded": "1896",
+        "ground": "Zeeco Stadium, Stamford"
+    },
+    "St_Ives_Town_F.C.": {
+        "name": "St Ives Town F.C.",
+        "nickname": "The Saints",
+        "founded": "1887",
+        "ground": "Westwood Road, St Ives"
+    },
+    "Stourbridge_F.C.": {
+        "name": "Stourbridge F.C.",
+        "nickname": "The Glassboys",
+        "founded": "1876",
+        "ground": "War Memorial Athletic Ground,Amblecote"
+    },
+    "Stratford_Town_F.C.": {
+        "name": "Stratford Town F.C.",
+        "nickname": "The Bards",
+        "founded": "1941",
+        "ground": "Knights Lane, Tiddington"
+    },
+    "A.F.C._Totton": {
+        "name": "A.F.C. Totton",
+        "nickname": "The Stags",
+        "founded": "1886",
+        "ground": "Testwood Stadium, Totton"
+    },
+    "Basingstoke_Town_F.C.": {
+        "name": "Basingstoke Town F.C.",
+        "nickname": "The 'Stoke,[1]",
+        "founded": "1896",
+        "ground": "Winklebury Sports Complex, Basingstoke"
+    },
+    "Bracknell_Town_F.C.": {
+        "name": "Bracknell Town F.C.",
+        "nickname": "The Robins[1]",
+        "founded": "1896",
+        "ground": "Bottom Meadow, Sandhurst"
+    },
+    "Chertsey_Town_F.C.": {
+        "name": "Chertsey Town F.C.",
+        "nickname": "The Curfews",
+        "founded": "1890",
+        "ground": "Alwyns LaneChertsey, Surrey"
+    },
+    "Dorchester_Town_F.C.": {
+        "name": "Dorchester Town F.C.",
+        "nickname": "The Magpies",
+        "founded": "1880",
+        "ground": "The Avenue Stadium, Dorchester"
+    },
+    "Frome_Town_F.C.": {
+        "name": "Frome Town F.C.",
+        "nickname": "The Robins, The Dodge",
+        "founded": "1904",
+        "ground": "Badgers Hill, Frome"
+    },
+    "Gloucester_City_A.F.C.": {
+        "name": "Gloucester City A.F.C.",
+        "nickname": "The Tigers",
+        "founded": "1883",
+        "ground": "Meadow Park"
+    },
+    "Gosport_Borough_F.C.": {
+        "name": "Gosport Borough F.C.",
+        "nickname": "The Boro'",
+        "founded": "1944",
+        "ground": "The AEI Stadium, Privett Park, Gosport"
+    },
+    "Hanwell_Town_F.C.": {
+        "name": "Hanwell Town F.C.",
+        "nickname": "The Geordies",
+        "founded": "1920",
+        "ground": "Reynolds Field, Perivale"
+    },
+    "Havant_%26_Waterlooville_F.C.": {
+        "name": "Havant & Waterlooville F.C.",
+        "nickname": "The Hawks",
+        "founded": "1998",
+        "ground": "Westleigh Park, Havant"
+    },
+    "Hungerford_Town_F.C.": {
+        "name": "Hungerford Town F.C.",
+        "nickname": "The Crusaders",
+        "founded": "1886",
+        "ground": "Bulpit Lane, Hungerford"
+    },
+    "Marlow_F.C.": {
+        "name": "Marlow F.C.",
+        "nickname": "The Blues",
+        "founded": "1870",
+        "ground": "Alfred Davis Memorial Ground, Marlow"
+    },
+    "Merthyr_Town_F.C._(2010)": {
+        "name": "Merthyr Town F.C.",
+        "nickname": "The Martyrs",
+        "founded": "1908",
+        "ground": "Penydarren Park"
+    },
+    "Plymouth_Parkway_F.C.": {
+        "name": "Plymouth Parkway F.C.",
+        "nickname": "The Parkway",
+        "founded": "1988",
+        "ground": "Bolitho Park, Plymouth"
+    },
+    "Poole_Town_F.C.": {
+        "name": "Poole Town F.C.",
+        "nickname": "The Dolphins",
+        "founded": "1890",
+        "ground": "Tatnam Ground[1]"
+    },
+    "Sholing_F.C.": {
+        "name": "Sholing F.C.",
+        "nickname": "The Boatmen",
+        "founded": "1960",
+        "ground": "The Mortgage Decisions Stadium, Sholing"
+    },
+    "Swindon_Supermarine_F.C.": {
+        "name": "Swindon Supermarine F.C.",
+        "nickname": "The Marine",
+        "founded": "1992",
+        "ground": "Webbswood Stadium, South Marston, Swindon"
+    },
+    "Taunton_Town_F.C.": {
+        "name": "Taunton Town F.C.",
+        "nickname": "The Peacocks",
+        "founded": "1947",
+        "ground": "Wordsworth Drive, Taunton"
+    },
+    "Tiverton_Town_F.C.": {
+        "name": "Tiverton Town F.C.",
+        "nickname": "\"Tivvy\" \"Yellows\" \"Gold Army\"",
+        "founded": "1913",
+        "ground": "The Ian Moorcroft Stadium/Ladysmead, Tiverton"
+    },
+    "Walton_%26_Hersham_F.C.": {
+        "name": "Walton & Hersham F.C.",
+        "nickname": "The SwansThe ShamThe Waltz",
+        "founded": "1945",
+        "ground": "Elmbridge Sports HubWalton-on-Thames, Surrey"
+    },
+    "Wimborne_Town_F.C.": {
+        "name": "Wimborne Town F.C.",
+        "nickname": "The Magpies",
+        "founded": "1878",
+        "ground": "The Wyatt Homes Stadium, Wimborne"
+    },
+    "Winchester_City_F.C.": {
+        "name": "Winchester City F.C.",
+        "nickname": "The Citizens, City",
+        "founded": "1884",
+        "ground": "City Ground, Winchester"
+    },
+    "Billericay_Town_F.C.": {
+        "name": "Billericay Town F.C.",
+        "nickname": "Ricay, The Blues",
+        "founded": "1880",
+        "ground": "New Lodge, Billericay"
+    },
+    "Bognor_Regis_Town_F.C.": {
+        "name": "Bognor Regis Town F.C.",
+        "nickname": "The Rocks",
+        "founded": "1883",
+        "ground": "MKM Arena, Nyewood Lane, Bognor Regis"
+    },
+    "Bowers_%26_Pitsea_F.C.": {
+        "name": "Bowers & Pitsea F.C.",
+        "nickname": "Bowers",
+        "founded": "1946",
+        "ground": "Len Salmon Stadium, Pitsea"
+    },
+    "Canvey_Island_F.C.": {
+        "name": "Canvey Island F.C.",
+        "nickname": "The Gulls, The Islanders, Yellows",
+        "founded": "1926",
+        "ground": "Park Lane, Canvey Island"
+    },
+    "Carshalton_Athletic_F.C.": {
+        "name": "Carshalton Athletic F.C.",
+        "nickname": "The Robins",
+        "founded": "1905",
+        "ground": "War Memorial Sports Ground, Carshalton"
+    },
+    "Chatham_Town_F.C.": {
+        "name": "Chatham Town F.C.",
+        "nickname": "The Chats",
+        "founded": "1882",
+        "ground": "The Bauvill Stadium, Chatham"
+    },
+    "Cheshunt_F.C.": {
+        "name": "Cheshunt F.C.",
+        "nickname": "The Ambers",
+        "founded": "1946",
+        "ground": "Theobalds Lane, Cheshunt"
+    },
+    "Chichester_City_F.C.": {
+        "name": "Chichester City F.C.",
+        "nickname": "Lillywhites",
+        "founded": "2000",
+        "ground": "Oaklands Park, Chichester"
+    },
+    "Cray_Wanderers_F.C.": {
+        "name": "Cray Wanderers F.C.",
+        "nickname": "The Wands",
+        "founded": "1860",
+        "ground": "Flamingo Park, Chislehurst"
+    },
+    "Cray_Valley_Paper_Mills_F.C.": {
+        "name": "Cray Valley Paper Mills F.C.",
+        "nickname": "The Millers",
+        "founded": "1919",
+        "ground": "Badgers Sports Ground, Eltham"
+    },
+    "Dartford_F.C.": {
+        "name": "Dartford F.C.",
+        "nickname": "The Darts",
+        "founded": "1888",
+        "ground": "Princes Park, Dartford, Kent"
+    },
+    "Dover_Athletic_F.C.": {
+        "name": "Dover Athletic F.C.",
+        "nickname": "The Whites[1]",
+        "founded": "1983",
+        "ground": "Crabble Athletic Ground[2]"
+    },
+    "Dulwich_Hamlet_F.C.": {
+        "name": "Dulwich Hamlet F.C.",
+        "nickname": "The Hamlet",
+        "founded": "1893",
+        "ground": "Champion Hill, London"
+    },
+    "Folkestone_Invicta_F.C.": {
+        "name": "Folkestone Invicta F.C.",
+        "nickname": "Invicta, The Seasiders, Stripes",
+        "founded": "1936",
+        "ground": "Cheriton Road, Folkestone"
+    },
+    "Hashtag_United_F.C.": {
+        "name": "Hashtag United F.C.",
+        "nickname": "The Tags, Hashtag",
+        "founded": "2016",
+        "ground": "Parkside, Aveley"
+    },
+    "Hastings_United_F.C.": {
+        "name": "Hastings United F.C.",
+        "nickname": "The U's",
+        "founded": "1893",
+        "ground": "The Pilot Field"
+    },
+    "Hendon_F.C.": {
+        "name": "Hendon F.C.",
+        "nickname": "The Greens, The Dons",
+        "founded": "1908",
+        "ground": "Silver Jubilee Park, Kingsbury"
+    },
+    "Horsham_F.C.": {
+        "name": "Horsham F.C.",
+        "nickname": "The Hornets",
+        "founded": "1881",
+        "ground": "Fusion Aviation Community Stadium, Horsham"
+    },
+    "Lewes_F.C.": {
+        "name": "Lewes F.C.",
+        "nickname": "The Rooks",
+        "founded": "1885",
+        "ground": "The Dripping Pan, Lewes"
+    },
+    "Potters_Bar_Town_F.C.": {
+        "name": "Potters Bar Town F.C.",
+        "nickname": "The Scholars, Bar",
+        "founded": "1960",
+        "ground": "The Lantern Stadium, Potters Bar"
+    },
+    "Whitehawk_F.C.": {
+        "name": "Whitehawk F.C.",
+        "nickname": "The Hawks",
+        "founded": "1945",
+        "ground": "McLaren Enclosed Ground, Brighton"
+    },
+    "Wingate_%26_Finchley_F.C.": {
+        "name": "Wingate & Finchley F.C.",
+        "nickname": "The Blues",
+        "founded": "1991",
+        "ground": "The Maurice Rebak Stadium, Finchley"
+    }
+}

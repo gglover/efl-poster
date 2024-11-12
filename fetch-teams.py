@@ -1,54 +1,94 @@
 import requests
 import json
 import time
+import io
+import re
+import os.path
 from PIL import Image
 from bs4 import BeautifulSoup
-import sys
-
-# Access the arguments
-arguments = sys.argv[1:]  # sys.argv[0] is the script name
-
-# Print the arguments
-print("Command-line arguments:", arguments)
-
-WIKIPEDIA_URL_PREFIX = 'https://en.wikipedia.org/wiki/'
-
-leagues_data = None
+from constants import FETCH_HEADERS, WIKIPEDIA_URL_PREFIX, REQUEST_SLEEP_TIMEOUT_SECONDS
 
 def fetch_team(name):
+	# Fetch html from wikipedia for team.
 	teams_data = None
-
 	with open(f'assets/teams.json', 'r') as file:
 		teams_data = json.load(file)
 
-	response = requests.get(f'{WIKIPEDIA_URL_PREFIX}{name}')
-	soup = BeautifulSoup(response.text, 'html.parser')
+	if (name in teams_data):
+		print(f'{name}: Already synced')
+		return
 
-	print(f'Parsing team data for {name}')
+	response = requests.get(f'{WIKIPEDIA_URL_PREFIX}{name}', headers=FETCH_HEADERS)
+	time.sleep(REQUEST_SLEEP_TIMEOUT_SECONDS)
 
-	infobox = soup.select('table.infobox.vcard')
-	if infobox is None or len(infobox) == 0:
-		raise ValueError(f'No info found for {name}')
+	# Extract text info from "infobox". Consistent across team pages.
+	wiki_data = BeautifulSoup(response.text, 'html.parser')
+	print(f'{name}: Parsing team data')
+
+	infobox = wiki_data.select_one('table.infobox.vcard')
+	if infobox is None:
+		raise ValueError(f'{name}: No info found')
 	
-	infobox = infobox[0]
+	team_data = {
+		"name": wiki_data.select_one('h1').text.strip(),
+		"nickname": None,
+		"founded": None,
+		"ground": None
+	}
 
-	badge_url = infobox.select('img')[0].get('src')
+	for i, row in enumerate(infobox.find_all('tr')):
+		header = row.find('th')
+		value = row.find('td')
+		
+		if header != None and value != None:
+			header = header.text.strip()
+			value = value.text.strip()
+
+			if re.match("ground", header, re.IGNORECASE):
+				team_data["ground"] = value
+
+			if re.match("nickname", header, re.IGNORECASE):
+				team_data["nickname"] = value
+			
+			if re.match("founded", header, re.IGNORECASE):
+				# Try to extract a single 4 digit year from the date.
+				year_match = re.search(r'\b\d{4}\b', value)
+
+				if year_match:
+					first_year = year_match.group()
+					team_data["founded"] = first_year
+	
+	# Write parsed data teams.json
+	teams_data[name] = team_data
+
+	with open('assets/teams.json', 'w') as file:
+		json.dump(teams_data, file, indent=4)
+
+	# Extract badge URL from "infobox"
+	badge_url = infobox.select_one('img').get('src')
 	badge_url = f'https:{badge_url}'
+	badge_output_path = f'assets/badges/{name}.png'
 
-	with Image.open(requests.get(badge_url, stream=True).raw) as badge_img:
-		badge_img.save(f'assets/badges/{name}.png', 'PNG')
-
-	print(badge_url)
-
-	# fields = []
-	# for i, row in enumerate(infobox.find_all('tr')):
-	# 	fields.append(row.find('th').text.strip())
-	# 	fields.append(row.find('td').text.strip())
+	if (os.path.isfile(badge_output_path)):
+		print(f'{name}: Badge already exists')
+		return
 	
-	# print(headers)
-	# print(rows)
+	# Fetch badge and convert to PNG with consistent naming.
+	print(f'{name}: Fetching badge - {badge_url}')
+	time.sleep(REQUEST_SLEEP_TIMEOUT_SECONDS)
 
-	# with open('assets/teams.json', 'w') as file:
-	# 	json.dump(teams_data, file, indent=4)
+	badge_img_data = requests.get(badge_url, stream=True, headers=FETCH_HEADERS)
+	
+	if badge_img_data.status_code != 200:
+		print(f'Failed to fetch badge. Status code {badge_img_data.status_code}')
+		return
 
-fetch_team('Arsenal_F.C.')
+	with Image.open(io.BytesIO(badge_img_data.content)) as badge_img:
+		badge_img.save(badge_output_path, 'PNG')
+
+with open('assets/leagues.json', 'r') as file:
+	leagues_data = json.load(file)
+
+	for league in leagues_data['leagues']:
+		for team in league['teams']:
+			fetch_team(team)
