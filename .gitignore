@@ -1,3 +1,4 @@
 env
 assets/badges/*.png
+assets/index.html
 __pycache__
