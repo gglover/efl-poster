@@ -8,6 +8,9 @@ from PIL import Image
 from bs4 import BeautifulSoup
 from constants import FETCH_HEADERS, WIKIPEDIA_URL_PREFIX, REQUEST_SLEEP_TIMEOUT_SECONDS
 
+# Fetches relevant data and primary badge photo for all teams
+# defined in assets/teams.json. Skips scraping calls if already saved.
+
 def fetch_team(name):
 	# Fetch html from wikipedia for team.
 	teams_data = None
