@@ -1,8 +1,6 @@
 # efl-poster
 
-When I was in high school I made a big poster with five tiers of English Football League clubs. It involved a ton of manual copy / paste into photoshop. It took days to complete. I decided to revisit the project, double the number of clubs and automate the process for future years.
-
-This repo contains utility scripts to fetch badges from English Football League clubs and generates a poster from the output.
+This repo contains utility scripts to fetch badges and metadata from seven tiers of the English football league system. It also contains a layout script to generate a poster from scraped output.
 
 ## Scripts 
 
@@ -20,6 +18,10 @@ Scrapes wikipedia pages for team metadata and badge images. Uses team links foun
 Creates HTML file with scraped logos layed out in movie size (27" x 40") poster. 
 
 ![poster example](assets/example.png)
+
+
+# More 
+When I was in high school I made a big poster with five tiers of English Football League clubs. It involved days of manual copying and pasting into photoshop. I decided to revisit the project, double the number of clubs and, automate the process for future years.
 
 You can use Chrome's builtin full-page screenshot command to save a ready-to-print version. `Dev tools > Cmd-P > type ">" > Select Capture full size screenshot`.
 

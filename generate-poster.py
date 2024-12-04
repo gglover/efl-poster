@@ -1,6 +1,12 @@
 import json
 import urllib.parse
+import sys
 
+if len(sys.argv) <= 1:
+	print("No poster size argument provided. Please use one of: [A1, B1]")
+	quit()
+
+size = sys.argv[1]
 leagues_data = None
 teams_data = None
 
@@ -19,7 +25,7 @@ output = f"""
     <title>Football poster</title>
 		<link rel="stylesheet" href="base.css" />
 	</head>
-	<body>
+	<body class="{size}">
     <main>
       {'\n'.join([league_template(league) for league in leagues_data['leagues']])}
 		</main>
