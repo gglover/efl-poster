@@ -7,10 +7,10 @@ body.A1 {
   /* 96 ppi on websites. Let's double this for print */
   width: 48in;
   height: 72in;
-  --outer-padding: 80px;
-  --cell-gap: 40px 4px;
+  --outer-padding: 160px 120px;
+  --cell-gap: 30px 5px;
   --row-size: 288px;
-  --max-image-size: 3.1in;
+  --max-image-size: 2.9in;
   --teams-per-row: 14;
 }
 
@@ -52,7 +52,7 @@ main {
       object-fit: contain;
       max-height: var(--max-image-size);
       max-width: var(--max-image-size);
-      filter: drop-shadow(0px 4px 4px #999);
+      filter: drop-shadow(0px 6px 6px #777);
       padding: 10px;
     }
   }

@@ -15,7 +15,7 @@ with open('assets/leagues.json', 'r') as file:
 	
 for index, league in enumerate(leagues_data['leagues']):
 	if len(league['teams']) > 0:
-		print(f'Skipping {league['name']}: already synced.')
+		print(f'Skipping {league['name']}: already synced – {len(league['teams'])} teams total')
 		continue
 
 	# Fetch current seaeson's overview wikipedia page for the league

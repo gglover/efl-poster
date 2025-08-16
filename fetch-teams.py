@@ -17,9 +17,9 @@ def fetch_team(name):
 	with open(f'assets/teams.json', 'r') as file:
 		teams_data = json.load(file)
 
-	if (name in teams_data):
-		print(f'{name}: Already synced')
-		return
+	# if (name in teams_data):
+	# 	print(f'{name}: Already synced')
+	# 	return
 
 	response = requests.get(f'{WIKIPEDIA_URL_PREFIX}{name}', headers=FETCH_HEADERS)
 	time.sleep(REQUEST_SLEEP_TIMEOUT_SECONDS)
@@ -64,8 +64,8 @@ def fetch_team(name):
 	# Write parsed data teams.json
 	teams_data[name] = team_data
 
-	with open('assets/teams.json', 'w') as file:
-		json.dump(teams_data, file, indent=4)
+	# with open('assets/teams.json', 'w') as file:
+	# 	json.dump(teams_data, file, indent=4)
 
 	# Extract badge URL from "infobox"
 	badge_url = infobox.select_one('img').get('src')

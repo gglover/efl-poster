@@ -1510,5 +1510,107 @@
         "nickname": "The Blues",
         "founded": "1991",
         "ground": "The Maurice Rebak Stadium, Finchley"
+    },
+    "Merthyr_Town_F.C.": {
+        "name": "Merthyr Town F.C.",
+        "nickname": "The Martyrs",
+        "founded": "1908",
+        "ground": "Penydarren Park"
+    },
+    "Cleethorpes_Town_F.C.": {
+        "name": "Cleethorpes Town F.C.",
+        "nickname": "The Owls",
+        "founded": "1998",
+        "ground": "Myenergi Stadium, Linden Club, Grimsby"
+    },
+    "Hednesford_Town_F.C.": {
+        "name": "Hednesford Town F.C.",
+        "nickname": "The Pitmen",
+        "founded": "1880",
+        "ground": "Keys Park, Hednesford"
+    },
+    "Stocksbridge_Park_Steels_F.C.": {
+        "name": "Stocksbridge Park Steels F.C.",
+        "nickname": "(The) Steels[1][2]",
+        "founded": "1986",
+        "ground": "Bracken MoorStocksbridge, Sheffield"
+    },
+    "Bury_Town_F.C.": {
+        "name": "Bury Town F.C.",
+        "nickname": "The Blues",
+        "founded": "1872",
+        "ground": "Ram Meadow, Bury St Edmunds"
+    },
+    "Quorn_F.C.": {
+        "name": "Quorn F.C.",
+        "nickname": "The Reds, The Methodists",
+        "founded": "1924",
+        "ground": "Farley Way Stadium"
+    },
+    "Real_Bedford_F.C.": {
+        "name": "Real Bedford F.C.",
+        "nickname": "The Pirates",
+        "founded": "2002",
+        "ground": "McMullen Park, Bedford"
+    },
+    "Worcester_City_F.C.": {
+        "name": "Worcester City F.C.",
+        "nickname": "City, The Blues, the goats, Faithful",
+        "founded": "1902",
+        "ground": "Sixways Stadium"
+    },
+    "Berkhamsted_F.C.": {
+        "name": "Berkhamsted F.C.",
+        "nickname": "The Comrades",
+        "founded": "2009",
+        "ground": "Broadwater, Berkhamsted"
+    },
+    "Evesham_United_F.C.": {
+        "name": "Evesham United F.C.",
+        "nickname": "The Robins",
+        "founded": "1945",
+        "ground": "The Spiers & Hartwell Stadium, Evesham"
+    },
+    "Farnham_Town_F.C.": {
+        "name": "Farnham Town F.C.",
+        "nickname": "Town",
+        "founded": "1906",
+        "ground": "The Memorial Ground, Farnham"
+    },
+    "Uxbridge_F.C.": {
+        "name": "Uxbridge F.C.",
+        "nickname": "The Reds",
+        "founded": "1871",
+        "ground": "Honeycroft, Yiewsley"
+    },
+    "Yate_Town_F.C.": {
+        "name": "Yate Town F.C.",
+        "nickname": "The Bluebells",
+        "founded": "1906",
+        "ground": "Lodge Road, Yate"
+    },
+    "Brentwood_Town_F.C.": {
+        "name": "Brentwood Town F.C.",
+        "nickname": "The Blues",
+        "founded": "1954",
+        "ground": "Brentwood Centre Arena, Brentwood"
+    },
+    "Burgess_Hill_Town_F.C.": {
+        "name": "Burgess Hill Town F.C.",
+        "nickname": "The Hillians, Hill",
+        "founded": "1882",
+        "ground": "Leylands Park, Burgess Hill"
+    },
+    "Ramsgate_F.C.": {
+        "name": "Ramsgate F.C.",
+        "nickname": "The Rams",
+        "founded": "1945",
+        "ground": "Southwood Stadium, Ramsgate"
+    },
+    "Widnes_F.C.": {
+        "name": "Widnes F.C.",
+        "nickname": "The Black & Whites",
+        "founded": "2003",
+        "ground": "Halton Stadium, Widnes, Cheshire"
     }
 }
